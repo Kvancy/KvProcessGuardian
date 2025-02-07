@@ -1,0 +1,7 @@
+﻿  pch.cpp
+C:\Users\15386\Desktop\VS_shell\KvProject\KvProcessGuardian\KvProcessGuardian\Common\pch.cpp(3,10): fatal error C1083: 无法打开预编译头文件: “Debug\KvProcessGuardian.pch”: No such file or directory
+  KvProcessGuardian.cpp
+C:\Users\15386\Desktop\VS_shell\KvProject\KvProcessGuardian\KvProcessGuardian\Dialogs\KvProcessGuardian.cpp(5,10): fatal error C1083: 无法打开预编译头文件: “Debug\KvProcessGuardian.pch”: No such file or directory
+  KvProcessGuardianDlg.cpp
+C:\Users\15386\Desktop\VS_shell\KvProject\KvProcessGuardian\KvProcessGuardian\Dialogs\KvProcessGuardianDlg.cpp(5,10): fatal error C1083: 无法打开预编译头文件: “Debug\KvProcessGuardian.pch”: No such file or directory
+  正在生成代码...

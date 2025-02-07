@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Common">
+      <UniqueIdentifier>{9a0bd35e-5c30-4150-ac8f-a943ece1a51a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dialogs">
+      <UniqueIdentifier>{5e8ef2d1-79db-459d-b745-ac682a281544}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Driver">
+      <UniqueIdentifier>{5b76afff-68ab-4371-91c4-e6eff8f67f39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="res">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="KvProcessGuardian.rc">
+      <Filter>res</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\KvProcessGuardian.rc2">
+      <Filter>res</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\KvProcessGuardian.ico">
+      <Filter>res</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Common\framework.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\pch.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Resource.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\targetver.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialogs\KvProcessGuardian.h">
+      <Filter>Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialogs\KvProcessGuardianDlg.h">
+      <Filter>Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="Driver\tool.h">
+      <Filter>Driver</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Common\pch.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialogs\KvProcessGuardian.cpp">
+      <Filter>Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialogs\KvProcessGuardianDlg.cpp">
+      <Filter>Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="Driver\tool.cpp">
+      <Filter>Driver</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
